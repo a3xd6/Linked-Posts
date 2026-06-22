@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@plugin './hero.js';
+@source '../node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}';
+@custom-variant dark (&:is(.dark *));
+
+[data-slot="errorMessage"] {
+  white-space: normal !important;  /* السماح بالنزول للسطر */
+  word-wrap: break-word !important; /* يكسر الكلمات الطويلة */
+  overflow-wrap: anywhere !important; /* لو النص مفيهوش مسافات */
+  max-width: 100% !important; /* يمنع التمدد */
+  line-height: 1.3 !important;
+}
