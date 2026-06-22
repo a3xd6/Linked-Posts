@@ -2,7 +2,7 @@ import { Children, useState } from "react";
 import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import MainLayout from "./Layouts/MainLayout";
-import FeedPage from "./Pages/feedPAge";
+import FeedPage from "./Pages/FeedPage";
 import AuthLayout from "./Layouts/AuthLayout";
 import Login from "./Pages/Login";
 import Register from "./Pages/Register";
